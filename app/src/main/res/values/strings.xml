@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Kursach2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_main">Главная</string>
+    <string name="menu_rec">Рецепты</string>
+    <string name="menu_ing">Ингредиенты</string>
+    <string name="menu_setting">Настройки</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="Kul">Кулинарная</string>
+    <string name="Kniga">Книга</string>
+    <string name="add_rec">Добавить \n рецепт</string>
+    <string name="spis_rec">Список \n рецептов</string>
+    <string name="spisok_ing">Список \n ингредиентов</string>
+    <string name="add_ing">Добавить \n ингредиент</string>
+    <string name="Exit">Выход</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_activ">Назад</string>
+</resources>

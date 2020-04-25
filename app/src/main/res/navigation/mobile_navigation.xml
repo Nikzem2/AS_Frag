@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_main">
+
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="com.example.kursach2.ui.home.HomeFragment"
+        android:label="@string/menu_main"
+        tools:layout="@layout/home">
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_rec"
+        android:name="com.example.kursach2.ui.recept.ReceptFrag"
+        android:label="@string/menu_rec"
+        tools:layout="@layout/recept" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.kursach2.ui.settings.SettingFrag"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/setting" />
+    <fragment android:id="@+id/placeholder" />
+
+    <fragment
+        android:id="@+id/nav_ing"
+        android:name="com.example.kursach2.ui.ingred.IngredFrag"
+        android:label="Ингридиенты"
+        tools:layout="@layout/ingred" />
+</navigation>
